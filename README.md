@@ -3,6 +3,7 @@
 This project involved preparing a tidy dataset from the *Human Activity Recognition Using Smartphones Data Set*, [available](https://archive.ics.uci.edu/ml/datasets/human+activity+recognition+using+smartphones) on the UCI Machine Learning Repository. More information about tidy data can be found in Hadley Wickham's [paper](https://vita.had.co.nz/papers/tidy-data.pdf) on the subject.
 
 ## About the data <sup>1</sup>
+Wearable computing is an exciting new aspect of data science. In this project, we look at data from the Samsung Galaxy S II smartphone's embedded accelerometer and gyroscope. According to the team that prepared the dataset:
 > The data were collected from experiments carried out with 30 volunteers aged between 19 and 48 years. Each volunteer was asked to perform 6 different activities: walking, sitting, laying, standing, walking upstairs and walking downstairs, wearing a smartphone (the Samsung Galaxy S II) on their waists. 3-axial linear acceleration and 3-axial angular velocity were captured using the smartphone's embedded accelerometer and gyroscope at a constant rate of 50 Hz, and the data were partitioned randomly in a 7:3 ratio for training and testing respectively.
 >
 >These raw data (sensor signals) were then preprocessed by applying noise filters and sampled in fixed-width sliding windows of 2.56 seconds and 50% overlap. The accelerometer signal, which had both body and gravitational motion components, was filtered into its two components using a low-pass Butterworth filter with a 0.3 Hz cutoff frequency.
