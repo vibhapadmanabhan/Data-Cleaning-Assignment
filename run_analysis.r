@@ -59,4 +59,4 @@ tidyData <- cbind(subjectNo, labels, features)
 tidyData <- tidyData %>% group_by(subjectNo, activity) %>%
   summarise_all(mean)
 
-write.table(tidyData, file='tidyData.txt')
+write.table(tidyData, file='tidyData.txt', row.names=FALSE)
