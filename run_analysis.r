@@ -34,7 +34,7 @@ featureVec <- gsub('\\(\\)', '', featureVec) #get rid of punctuation
 featureVec <- gsub('-', '', featureVec) # more punctuation
 
 #set descriptive variable names
-features <- setNames(features, featureVec)
+features <- setNames(features, paste0('mean', featureVec))
 
 #merge y training and test data
 labels <- rbind(y_train, y_test)
